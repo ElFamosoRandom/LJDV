@@ -2,7 +2,7 @@
 # LJDV
 Outil d'aide à la gestion du rp Le jeu du village. Site web de gestion.
 =======
-__** Qu'est ce que Le Jeu Du Village ?**__
+__**Qu'est ce que Le Jeu Du Village ?**__
 
 > Le Jeu Du Village (ou LJDV) est un rp type "jeu" 
 
@@ -12,12 +12,12 @@ __** Qu'est ce que Le Jeu Du Village ?**__
 
 > Si certains connaissent le jeu "Hordes" on parle un peu du même type de jeu.
 
-__** Quel est le projet que je souhaite réaliser ? **__
+__**Quel est le projet que je souhaite réaliser ?**__
 
 > Ce jeu à déjà été testé sous la forme d'un rp discord
 > Au cours de ces tests, moi et d'autres joueurs avons remarqué le besoin d'automatisation du système, puisque les actions prennent beaucoup de temps à réaliser chez les joueurs, et beaucoup de temps à traiter chez les mj, automatiser et simplifier ce système permettrais de faire gagner du temps à tout le monde, et de plus facilement progresser dans le jeu.
 
-__** Quels sont les problèmes actuelle de la version "discord" du jeu ? **__
+__**Quels sont les problèmes actuelle de la version "discord" du jeu ?**__
 
 Il y a plusieurs problème pour les joueurs et pour les MJ :
 
@@ -37,7 +37,7 @@ __MJ__
 
 - Le temps que prend ces précédente actions prennent empêche fortement l'équilibrage du jeu et des ennemies. l'équilibrage est, de plus, compliqué dût à trop de liberté sur la création des ennemies
 
-__** Que vais-je améliorer ? **__
+__**Que vais-je améliorer ?**__
 
 voici une liste que j'ai réalisé qui résume à peu près ce que je compte faire pour améliorer et automatisé le jeu :
 
