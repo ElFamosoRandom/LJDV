@@ -944,11 +944,12 @@ textarea{
     background-color: #342D2D;
     border: 1px solid white;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
 }
 
 #photo-list-step-three{
     position: relative;
-    left: 25%;
     top: 5%;
     width: 70%;
     height: 90%;
@@ -963,8 +964,9 @@ textarea{
 
 #photo-custom-step-three{
     position: absolute;
-    left: 8%;
-    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
     width: 175px;
     height: 175px;
     border-radius: 50%;
@@ -994,10 +996,16 @@ textarea{
     object-fit: cover;
 }
 
+#preview-area-step-three{
+    position: relative;
+    width: 25%;
+    height: 100%;
+}
+
 #custom-photo-add-step-three{
     position: absolute;
-    left: 8%;
-    top: 20%;
+    left: 30%;
+    top: 10%;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -1030,8 +1038,8 @@ textarea{
     position: absolute;
     background-color: black;
     top: 80%;
-    left: 2%;
-    width: 20%;
+    left: 10%;
+    width: 80%;
     height: 50px;
 }
 

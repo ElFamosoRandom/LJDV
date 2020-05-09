@@ -106,6 +106,21 @@
                         </p>
                     </div>
                     <div id="photo-area-step-three">
+                        <div id="preview-area-step-three">
+                            <div id="photo-custom-step-three">
+                                <img src="" alt="preview-from-input" class="preview-image">
+                            </div>
+                            <label for="custom-photo-input-step-three" id="custom-photo-add-step-three">
+                                <input type="file" id="custom-photo-input-step-three">
+                            </label>
+                            <div id="login-button-step-three" class="next-button">
+                                <a id="login-button-text-step-three">
+                                    <p>
+                                        Suivant
+                                    </p>
+                                </a>
+                            </div>
+                        </div>   
                         <div id="photo-list-step-three">
                             <div class="photo">
                                 <img src="{{asset('/image/moine/moine4.jpg')}}" alt="moine" class="image">
@@ -248,22 +263,7 @@
                             <div class="photo">
                                 <img src="" alt="">
                             </div>
-                        </div>
-                        <div id="photo-custom-step-three">
-                            <img src="" alt="preview-from-input" class="preview-image">
-                        </div>
-                        <label for="custom-photo-input-step-three" id="custom-photo-add-step-three">
-                            <input type="file" id="custom-photo-input-step-three">
-                        </label>
-
-                        <div id="login-button-step-three" class="next-button">
-                            <a id="login-button-text-step-three">
-                                <p>
-                                    Suivant
-                                </p>
-                            </a>
-                        </div>
-                        
+                        </div>                
                     </div>
                 </div>
             </section id="fourth-section">
