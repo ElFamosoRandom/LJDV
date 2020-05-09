@@ -1140,7 +1140,7 @@ textarea{
     position: absolute;
     left: 50%;
     top: 70%;
-    transform: translateX(-75%);
+    transform: translateX(-50%);
     color: white;
     font-size: 20px;
     text-align: center;
@@ -1150,8 +1150,26 @@ textarea{
     position: absolute;
     left: 50%;
     top: 80%;
-    transform: translateX(-100%);
+    transform: translateX(-50%);
     color: red;
-    font-size: 10px;
+    font-size: 20px;
     text-align: center;
+}
+
+#login-button-step-four{
+    position: absolute;
+    background-color: black;
+    top: 88%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 50px;
+}
+
+#login-button-text-step-four{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    color: white;
+    font-size: 1vw;
 }

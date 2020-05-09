@@ -287,16 +287,23 @@
                                 <p class="title">Lore :</p>
                                 <textarea class="result" id="text-area-step-four"></textarea>
                             </div>
-                            <div id="info-message-step-four">
+                        </div>
+                        <div id="info-message-step-four">
+                            <p>
+                                Vous pouvez retourner en arrière et modifier votre personnage en cliquant sur les bulles d'étape sur la barre de progression en haut de la page
+                            </p>
+                        </div>
+                        <div id="warning-message-step-four">
+                            <p>
+                                Attention ! ces informations ne seront pas modifiable après création du personnage !
+                            </p>
+                        </div>
+                        <div id="login-button-step-four" class="next-button">
+                            <a id="login-button-text-step-four">
                                 <p>
-                                    Vous pouvez retourner en arrière et modifier votre personnage en cliquant sur les bulles d'étape sur la barre de progression en haut de la page
+                                    Suivant
                                 </p>
-                            </div>
-                            <div id="warning-message-step-four">
-                                <p>
-                                    Attention ! ces informations ne seront pas modifiable après création du personnage !
-                                </p>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
