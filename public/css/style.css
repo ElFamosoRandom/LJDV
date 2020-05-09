@@ -583,6 +583,78 @@ a{
     right: 10px;
 }
 
+#txt-top-step-one{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    font-size: 2.5em;
+    text-align: center;
+    color: black;
+}
+
+.txt-middle-step-one{
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 30%;
+}
+
+#icon-class-step-one-1{
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border-radius: 100%;
+    z-index: 2;
+    transition: all 0.7s ease-in-out;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+}
+
+#icon-class-step-one-2{
+    width: 130px;
+    height: 130px;
+    background-color: red;
+    border-radius: 100%;
+    z-index: 2;
+    transition: all 0.7s ease-in-out;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+}
+
+#icon-class-step-one-3{
+    width: 130px;
+    height: 130px;
+    background-color: blue;
+    border-radius: 100%;
+    z-index: 2;
+    transition: all 0.7s ease-in-out;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+}
+
+#decoration-class-step-one{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 1vh;
+    background-color: white;
+}
+
+#text-class-step-one{
+    width: 98%;
+    height: 100%;
+    font-size: 1.3em;
+    margin-left: 1vw;
+    color: white;
+}
+
 
 
 
@@ -616,6 +688,29 @@ a{
 .controls ul li.selected{
     transition: all 0.3s;
     background: rgb(22, 123, 238);
+}
+
+#progress-bar{
+    position: absolute;
+    height: 2vh;
+    width: 75%;
+    background-color: #342D2D;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12.5%;
+    z-index: 1;
+}
+
+#progress-bar-full{
+    position: absolute;
+    height: 2vh;
+    width: 0%;
+    background-color: rgb(21, 109, 209);
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12.5%;
+    z-index: 1;
+    transition: all 0.3s;
 }
 
 
@@ -1062,116 +1157,9 @@ textarea{
 
 
 
+
 /* Responsive for big screen */
 
-@media only screen 
-  and (min-device-width: 1000px) 
-  and (max-device-width: 5000px)
-   {  
-
-    .txt-step{
-        text-align: center;
-        vertical-align: middle;
-        line-height: 120px;
-        color: white;
-        font-size: 2em;
-    }
-
-    #progress-bar{
-        position: absolute;
-        height: 2vh;
-        width: 75%;
-        background-color: #342D2D;
-        top: 50%;
-        transform: translateY(-50%);
-        left: 12.5%;
-        z-index: 1;
-    }
-
-    #progress-bar-full{
-        position: absolute;
-        height: 2vh;
-        width: 0%;
-        background-color: rgb(21, 109, 209);
-        top: 50%;
-        transform: translateY(-50%);
-        left: 12.5%;
-        z-index: 1;
-        transition: all 0.3s;
-    }
-
-    #txt-top-step-one{
-        position: absolute;
-        left: 50%;
-        top: 20%;
-        transform: translateX(-50%);
-        font-size: 2.5em;
-        text-align: center;
-        color: black;
-    }
-
-    .txt-middle-step-one{
-        font-size: 3em;
-        text-align: center;
-        color: white;
-        position: absolute;
-        top: 30%;
-    }
-
-    #icon-class-step-one-1{
-        width: 130px;
-        height: 130px;
-        background-color: white;
-        border-radius: 100%;
-        z-index: 2;
-        transition: all 0.7s ease-in-out;
-        transform: translateY(-50%);
-        position: absolute;
-        top: 50%;
-    }
-
-    #icon-class-step-one-2{
-        width: 130px;
-        height: 130px;
-        background-color: red;
-        border-radius: 100%;
-        z-index: 2;
-        transition: all 0.7s ease-in-out;
-        transform: translateY(-50%);
-        position: absolute;
-        top: 50%;
-    }
-
-    #icon-class-step-one-3{
-        width: 130px;
-        height: 130px;
-        background-color: blue;
-        border-radius: 100%;
-        z-index: 2;
-        transition: all 0.7s ease-in-out;
-        transform: translateY(-50%);
-        position: absolute;
-        top: 50%;
-    }
-
-    #decoration-class-step-one{
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%,-50%);
-        width: 100%;
-        height: 1vh;
-        background-color: white;
-    }
-
-    #text-class-step-one{
-        width: 98%;
-        height: 100%;
-        font-size: 1.3em;
-        margin-left: 1vw;
-        color: white;
-    }
-}
 
 
 
@@ -1187,6 +1175,211 @@ textarea{
   and (min-device-width: 0px) 
   and (max-device-width: 1000px)
   {
+    .controls ul li {
+        width: 50px;
+        height: 50px;
+    }
+    #txt-top-step-one {
+        font-size: 1em; 
+    }
+
+    .txt-middle-step-one {
+        font-size: 1.5em;
+        top: 35%;
+    }
+
+    #arrow-left-parent {
+        width: 50px;
+        height: 50px;
+        left: 15%;
+    }
+
+    #arrow-left {
+        width: 20px;
+        height: 20px;
+    }
+
+    #icon-class-step-one-1 {
+        width: 70px;
+        height: 70px;
+    }
+
+    #icon-class-step-one-2 {
+        width: 70px;
+        height: 70px;
+    }
+
+    #icon-class-step-one-3 {
+        width: 70px;
+        height: 70px;
+    }
+
+    #arrow-right-parent {
+        width: 50px;
+        height: 50px;
+        left: 85%;
+    }
+
+    #arrow-right {
+        width: 20px;
+        height: 20px;
+    }
+
+    #text-class-step-one {
+        width: 98%;
+        height: 100%;
+        font-size: 0.8em;
+        margin-left: 1vw;
+        color: white;
+    }
+
+    #txt-top-step-two {
+        font-size: 1em;
+    }
+
+    #info-area-step-two {
+        width: 90%; 
+    }
+
+    #inner-area-step-two {
+        width: 80%;
+    }
+
+    #div-name-step-two-back {
+        width: 100%;
+        height: 30px;
+        background-color: white;
+    }
+
+    #name-step-two {
+        background-color: transparent;
+        border: 0px solid silver;
+        width: 99%;
+        height: 100%;
+        outline: none;
+        font-size: 0.8em;
+        margin-left: 1%;
+    }
+
+    #text-checkbox-step-two {
+        font-size: 0.7em;
+    }
+
+    #text-area-step-two {
+        font-size: 0.8em;
+    }
+
+    #login-button-text-step-two {
+        font-size: 1em;
+    }
+
+    .photo {
+        width: 70px;
+        height: 70px;
+    }
+
+    #photo-list-step-three {
+        width: 50%;
+    }
+
+    #txt-top-step-three {
+        font-size: 1em;
+    }
+
+    #photo-area-step-three {
+        height: 70%;  
+    }
+
+    #photo-custom-step-three {
+        width: 100px;
+        height: 100px;
+    }
+
+    #preview-area-step-three {
+        width: 45%;
+    }
+
+    #custom-photo-add-step-three {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 40%;
+        width: 80%;
+        height: 50px;
+        border-radius: 0;
+    }
+
+    #login-button-text-step-three {
+        font-size: 1em;
+    }
+
+    .title {
+        font-size: 0.8em;
+    }
+
+    .result {
+        font-size: 0.8em;
+    }
+
+    #placeholder-image-step-four {
+        top: 15%;
+        width: 70px;
+        height: 70px;
+    }
+
+    #text-area-step-four {
+        position: relative;
+        height: 100px;
+        width: 70%;
+        font-size: 0.8em !important;
+        overflow: visible;
+    }
+
+    #div-image-step-four {
+        position: relative;
+        width: 40%;
+        height: 30%;
+    }
+
+    #info-message-step-four {
+        position: absolute;
+        left: 50%;
+        top: 60%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 0.8em;
+        width: 95%;
+        text-align: center;
+    }
+
+    #warning-message-step-four {
+        top: 75%;
+        font-size: 0.7em;
+        width: 70%;
+    }
+
+    #placeholder-name-step-four {
+        top: 5%;
+    }
+
+    #placeholder-class-step-four {
+        top: 15%;
+    }
+
+    #placeholder-description-step-four {
+        position: relative;
+        top: 27%;
+    }
+
+    #login-button-text-step-four {
+        font-size: 1em;
+    }
+
+    #login-button-step-four {
+        top: 85%;
+        width: 80%;
+        height: 50px;
+    }
+
     /*.step-register{
         width: 50px;
         height: 50px;
