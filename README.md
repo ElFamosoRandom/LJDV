@@ -2,65 +2,76 @@
 # LJDV
 Outil d'aide à la gestion du rp Le jeu du village. Site web de gestion.
 =======
-__**Qu'est ce que Le Jeu Du Village ?**__
+__**Qu'est-ce que Le Jeu Du Village ?**__
 
 > Le Jeu Du Village (ou LJDV) est un rp type "jeu" 
 
-> Le principe de Le Jeu Du Village est que des joueurs sélectionne une classe (comme dans tout bon rpg, moine, chasseur etc... par exemple) et commencent tous au sein d'un village 
+> Le principe de Le Jeu Du Village est que des joueurs sélectionnent une classe (comme dans tous bons Rpg, moine, chasseur etc... par exemple) et commencent tous au sein d'un village 
 
-> Le but du joueur est libre : il a la possibilité de s'entrainer ou combattre des monstres pour devenir plus fort, d'ouvrir son magasin et de faire fortune, ou de participer à la quête principale ou à des quêtes secondaires, tout cela encadré par des règles pré-établie 
+> Le but du joueur est libre : il a la possibilité de s'entrainer ou combattre des monstres pour devenir plus fort, d'ouvrir son magasin et de faire fortune, ou de participer à la quête principale ou à des quêtes secondaires, tout cela encadré par des règles pré-établies 
 
 > Si certains connaissent le jeu "Hordes" on parle un peu du même type de jeu.
 
 __**Quel est le projet que je souhaite réaliser ?**__
 
-> Ce jeu à déjà été testé sous la forme d'un rp discord
-> Au cours de ces tests, moi et d'autres joueurs avons remarqué le besoin d'automatisation du système, puisque les actions prennent beaucoup de temps à réaliser chez les joueurs, et beaucoup de temps à traiter chez les mj, automatiser et simplifier ce système permettrais de faire gagner du temps à tout le monde, et de plus facilement progresser dans le jeu.
+> Ce jeu a déjà été testé sous la forme d'un Rp discord
+> Au cours de ces tests, moi et d'autres joueurs ont remarqué le besoin d'automatisation du système, puisque les actions prennent beaucoup de temps à réaliser chez les joueurs, et beaucoup de temps à traiter chez les mj, automatiser et simplifier ce système permettrait de faire gagner du temps à tout le monde, et de plus facilement progresser dans le jeu.
 
-__**Quels sont les problèmes actuelle de la version "discord" du jeu ?**__
+__**Quels sont les problèmes actuels de la version "discord" du jeu ?**__
 
-Il y a plusieurs problème pour les joueurs et pour les MJ :
+Il y a plusieurs problèmes pour les joueurs et pour les MJ :
 
 __Joueurs__
 
-- Réfléchir conceptuellement aux actions à effectuer, ou vérifier l'état actuel de son perso, ses possession ou autre sont lourde, ils faut les écrire, les mettre dans l'ordres, et constamment vérifier que les actions à effectuer sont en raccord avec ce que veux faire le joueur.
+- Réfléchir conceptuellement aux actions à effectuer, ou vérifier l'état actuel de son perso, ses possessions ou autres sont lourde, ils faut les écrire, les mettre dans l'ordre, et constamment vérifier que les actions à effectuer sont en raccord avec ce que veux faire le joueur.
 
 - Les combats peuvent être lent dû au temps de jeu des joueurs, ou ils peuvent mettre du temps à démarrer suivant la présence des joueurs
 
-- Les déplacements doivent être exprimé à l'écrit en alternant entre le salon de la map et le salon personnel pour donner son tour au mj ce qui peux être lourd ou être confus (se tromper sur les coordonnées par exemple) 
+- Les déplacements doivent être exprimés à l'écrit en alternant entre le salon de la map et le salon personnel pour donner son tour au mj ce qui peux être lourd ou être confus (se tromper sur les coordonnées par exemple) 
 
 __MJ__
 
-- devoir passer 1 à 1 dans les salons des joueurs et noter 1 à 1 les actions qu'ils effectuent est plus que chronophage ce qui provoque un ralentissement conséquent du jeu. 
+- devoir passer 1 à 1 dans les salons des joueurs et noter 1 à 1 les actions qu'ils effectuent sont plus que chronophage ce qui provoque un ralentissement conséquent du jeu. 
 
-- devoir gérer les combat manuellement et rentrer manuellement les attaques et action des joueurs et des ennemies en combat est très chronophage, et 1 seul mj ne peux gérer qu'un seul combat. 
+- devoir gérer les combats manuellement et rentrer manuellement les attaques et action des joueurs et des ennemies en combat est très chronophage, et 1 seul mj ne peut gérer qu'un seul combat. 
 
-- Le temps que prend ces précédente actions prennent empêche fortement l'équilibrage du jeu et des ennemies. l'équilibrage est, de plus, compliqué dût à trop de liberté sur la création des ennemies
+- Le temps que prennent ces précédentes actions empêche fortement l'équilibrage du jeu et des ennemies. l'équilibrage est, de plus, compliqué dû à trop de liberté sur la création des ennemies
 
 __**Que vais-je améliorer ?**__
 
-voici une liste que j'ai réalisé qui résume à peu près ce que je compte faire pour améliorer et automatisé le jeu :
+voici une liste que j'ai réalisé qui résume à peu près ce que je compte faire pour améliorer et automatiser le jeu :
 
 
 -Membre : 
 
 > Accès à l'inventaire
-> Accès à la map / gestion des déplacement. 
-> Gestion des actions 
+
+> Accès à la map / gestion des déplacements.
+
+> Gestion des actions
+
 > Accès à l'arbre de compétence / bestiaire
+
 > Accès à un atelier de craft
+
 > Permettre les échanges entre joueurs
+
 > Messagerie discord intégré
+
 > Message privé
 
 
 
 -Administrateur (ou MJ) :
 
-> Gestion des inventaire des joueurs
+> Gestion des inventaires des joueurs
+
 > Gestion de la map, ajout d'évènement déclencheur sur des cases
+
 > Ajout de contenu (matériaux, objets, potions etc...) 
+
 > Ajout et gestion d'ennemi / bestiaire
+
 > Gestion des accès joueurs (donner l'accès à un nouvel arbre de compétence par exemple)
 
 Une maquette détaillée du projet est accessible via ce lien : https://xd.adobe.com/view/d1bfd381-40a9-4cb4-6a01-98a892ac3053-a78e/
