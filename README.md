@@ -45,12 +45,19 @@ voici une liste que j'ai réalisé qui résume à peu près ce que je compte fai
 -Membre : 
 
 > Accès à l'inventaire
-> Accès à la map / gestion des déplacements. 
-> Gestion des actions 
+
+> Accès à la map / gestion des déplacements.
+
+> Gestion des actions
+
 > Accès à l'arbre de compétence / bestiaire
+
 > Accès à un atelier de craft
+
 > Permettre les échanges entre joueurs
+
 > Messagerie discord intégré
+
 > Message privé
 
 
@@ -58,9 +65,13 @@ voici une liste que j'ai réalisé qui résume à peu près ce que je compte fai
 -Administrateur (ou MJ) :
 
 > Gestion des inventaires des joueurs
+
 > Gestion de la map, ajout d'évènement déclencheur sur des cases
+
 > Ajout de contenu (matériaux, objets, potions etc...) 
+
 > Ajout et gestion d'ennemi / bestiaire
+
 > Gestion des accès joueurs (donner l'accès à un nouvel arbre de compétence par exemple)
 
 Une maquette détaillée du projet est accessible via ce lien : https://xd.adobe.com/view/d1bfd381-40a9-4cb4-6a01-98a892ac3053-a78e/
