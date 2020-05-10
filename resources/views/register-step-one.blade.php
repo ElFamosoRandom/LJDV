@@ -333,5 +333,4 @@
 <script src="{{ asset('js/slider-register.js') }}"></script>
 <script src="{{ asset('js/slider-general.js') }}"></script>
 <script src="{{ asset('js/photo_choice.js') }}"></script>
-<script src="{{ asset('js/image_preview.js') }}"></script>
 <script src="{{ asset('js/resume.js') }}"></script>

@@ -1,5 +1,4 @@
 function hide_password(){
-
     var input_password = document.getElementById("input-login-password");
     var img_eye = document.getElementById("eye");
     var img_hidden = document.getElementById("hidden");
@@ -14,7 +13,5 @@ function hide_password(){
         img_eye.style.display = "none";
         img_hidden.style.display = "block";
     }
-
 }
-
 
