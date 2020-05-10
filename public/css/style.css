@@ -655,6 +655,24 @@ a{
     color: white;
 }
 
+#register-button-step-one{
+    position: absolute;
+    background-color: black;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    height: 50px;
+}
+
+#register-button-text-step-one{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    color: white;
+    font-size: 1vw;
+}
+
 
 
 
@@ -836,7 +854,7 @@ textarea{
     margin-left: 1%;
 }
 
-#login-button-step-two{
+#register-button-step-two{
     position: absolute;
     background-color: black;
     top: 80%;
@@ -846,7 +864,7 @@ textarea{
     height: 50px;
 }
 
-#login-button-text-step-two{
+#register-button-text-step-two{
     text-align: center;
     vertical-align: middle;
     line-height: 50px;
@@ -991,7 +1009,7 @@ textarea{
     display:none
 }
 
-#login-button-step-three{
+#register-button-step-three{
     position: absolute;
     background-color: black;
     top: 80%;
@@ -1000,7 +1018,7 @@ textarea{
     height: 50px;
 }
 
-#login-button-text-step-three{
+#register-button-text-step-three{
     text-align: center;
     vertical-align: middle;
     line-height: 50px;
@@ -1130,7 +1148,7 @@ textarea{
     text-align: center;
 }
 
-#login-button-step-four{
+#register-button-step-four{
     position: absolute;
     background-color: black;
     top: 88%;
@@ -1140,7 +1158,7 @@ textarea{
     height: 50px;
 }
 
-#login-button-text-step-four{
+#register-button-text-step-four{
     text-align: center;
     vertical-align: middle;
     line-height: 50px;
@@ -1202,6 +1220,13 @@ textarea{
     #icon-class-step-one-1 {
         width: 70px;
         height: 70px;
+    }
+    #register-button-step-one {
+        top: 75%;
+    }
+
+    #register-button-text-step-one {
+        font-size: 1em;
     }
 
     #icon-class-step-one-2 {
@@ -1269,7 +1294,7 @@ textarea{
         font-size: 0.8em;
     }
 
-    #login-button-text-step-two {
+    #register-button-text-step-two {
         font-size: 1em;
     }
 
@@ -1308,7 +1333,7 @@ textarea{
         border-radius: 0;
     }
 
-    #login-button-text-step-three {
+    #register-button-text-step-three {
         font-size: 1em;
     }
 
@@ -1370,11 +1395,11 @@ textarea{
         top: 27%;
     }
 
-    #login-button-text-step-four {
+    #register-button-text-step-four {
         font-size: 1em;
     }
 
-    #login-button-step-four {
+    #register-button-step-four {
         top: 85%;
         width: 80%;
         height: 50px;
