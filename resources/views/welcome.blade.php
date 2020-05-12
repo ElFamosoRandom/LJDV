@@ -16,38 +16,37 @@
     <body id="welcome-page">
         
         <div id="top-panel-title">
-            <p id="txt-title-top-panel">Le Jeu du Village</p>
+            <div id="top-panel-container">
+                <p id="txt-title-top-panel">Le Jeu du Village</p>
+            </div>
         </div>
 
         <div id="side-panel-welcome-page">
-            <div id="side-panel-txt-top">
-                <p>Outil d'aide à la gestion du rp Le jeu du village</p>
-            </div>
-
-            @guest
-                <div id="side-panel-connect-button">
-                    <a href="{{ url("login") }}">
-                        <p id="side-panel-txt-connect"> Se Connecter</p>
-                    </a>
+            <div id="test-side-panel">
+                <div id="side-panel-txt-top">
+                    <p>Outil d'aide à la gestion du rp Le jeu du village</p>
                 </div>
-        
-                <div id="side-panel-register-button">
-                    <a href="{{ url("register") }}">
-                        <p id="side-panel-txt-register"> S'inscrire</p>
-                    </a>
+                @guest
+                    <div id="side-panel-connect-button">
+                        <a href="{{ url("login") }}">
+                            <p id="side-panel-txt-connect"> Se Connecter</p>
+                        </a>
+                    </div>
+                    <div id="side-panel-register-button">
+                        <a href="{{ url("register") }}">
+                            <p id="side-panel-txt-register"> S'inscrire</p>
+                        </a>
+                    </div>
+                @endguest
+                <div id="side-panel-bottom">
+                    <p>un soucis ? une question ? rejoignez le discord pour discuter avec les admins du site et les responsables du jeu </p>
+                    <div>
+                        <a href="https://discord.gg/bNNfG5B">
+                            <img id="first-page-discord-image" src="{{asset('/image/discord_logo.png')}}" alt="discordlogo">
+                        </a>
+                    </div>
                 </div>
-            @endguest
-
-            <div id="side-panel-txt-bottom">
-                <p>un soucis ? une question ? rejoignez le discord pour discuter avec les admins du site et les responsables du jeu </p>
             </div>
-
-            <div id="discord-button">
-                <a href="https://discord.gg/bNNfG5B">
-                    <img src="{{asset('/image/discord_logo.png')}}" alt="discordlogo">
-                </a>
-            </div>
-
         </div>
 
         <div id="main-page-div">
